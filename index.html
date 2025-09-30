@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <!-- Llamada al CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado / Perfil -->
+    <section id="about-me">
+        <h1>DAVID BELEÑO RAMIREZ</h1>
+        <img src="foto.jpg" alt="Foto de Perfil">
+        <p><strong>Perfil Profesional:</strong> Ingeniero de sistemas, profesor de la planta administrativa de la Universidad Popular del Cesar, decano de la facultad de ciencias aplicadas, con más de 30 años de experiencia en el campo de la tecnología.</p>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills">
+        <h2>HABILIDADES</h2>
+        <ul>
+            <li>Diseño e implemento diversas técnicas de aprendizaje</li>
+            <li>Soy un visionario en cuanto al uso de las tecnologías TIC</li>
+            <li>Desarrollador de habilidades blandas</li>
+            <li>Liderazgo en proyectos de investigación y tecnología</li>
+        </ul>
+    </section>
+
+    <!-- Estudios -->
+    <section class="schedule">
+        <h2>ESTUDIOS</h2>
+        <table>
+            <tr>
+                <th>2004</th>
+                <th>Ingeniería de Sistemas</th>
+            </tr>
+            <tr>
+                <td>Valledupar</td>
+                <td>Universidad de Santander</td>
+            </tr>
+            <tr>
+                <th>2007</th>
+                <th>Especialista en Educación y Desarrollo de Tecnologías</th>
+            </tr>
+            <tr>
+                <td>Bogotá</td>
+                <td>Universidad Simón Bolívar</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Formulario -->
+    <section class="contact-form">
+        <h2>FORMULARIO DE REGISTRO</h2>
+        <form>
+            <label>Fecha de Solicitud</label>
+            <input type="date" name="Fecha" required>
+
+            <label>Nombre</label>
+            <input type="text" name="Nombre" required>
+
+            <label>Correo Electrónico</label>
+            <input type="email" name="Correo" required>
+
+            <label>Celular</label>
+            <input type="tel" name="Celular" required>
+
+            <label>Mensaje</label>
+            <textarea></textarea>
+
+            <label>País</label>
+            <select required>
+                <option value="">Seleccionar</option>
+                <option value="es">España</option>
+                <option value="co">Colombia</option>
+                <option value="mx">México</option>
+                <option value="ar">Argentina</option>
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
